@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
-from datetime import datetime
 
 # Function
 def create_monthly_trends(df):
@@ -114,11 +113,11 @@ st.set_page_config(
 @st.cache_data
 def load_data():
     # Daily dataset
-    day_df = pd.read_csv('clean_day.csv')
+    day_df = pd.read_csv('https://raw.githubusercontent.com/Mofasir/bike-sharing-analysis/refs/heads/main/dashboard/clean_day.csv')
     day_df['date'] = pd.to_datetime(day_df['date'])
     
     # Hourly dataset
-    hour_df = pd.read_csv('clean_hour.csv')
+    hour_df = pd.read_csv('https://raw.githubusercontent.com/Mofasir/bike-sharing-analysis/refs/heads/main/dashboard/clean_hour.csv')
     hour_df['date'] = pd.to_datetime(hour_df['date'])
     
     return day_df, hour_df
