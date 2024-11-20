@@ -3,7 +3,7 @@ This project provides an interactive dashboard for analyzing bike rental data. T
 
 ## Live Dashboard Access
 To access the deployed dashboard, click on the following link:  
-[Live Dashboard]("https://bike-sharing-analysis-mofasir.streamlit.app/")
+[Live Dashboard]('https://bike-sharing-analysis-mofasir.streamlit.app/')
 
 ## Running the Dashboard Locally
 Follow the steps below to run the dashboard on your local machine.
