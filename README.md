@@ -1,4 +1,4 @@
-# 🚲 Bike Sharing Analysis Dashboard
+# Bike Sharing Analysis Dashboard 🚲
 This project provides an interactive dashboard for analyzing bike rental data. The dashboard explores patterns in bike rentals influenced by factors such as weather, seasons, user types, and more.
 
 ## Live Dashboard Access
